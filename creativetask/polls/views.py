@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "polls/index.html")
+    return render(request, "polls/index.html", {"title": "Творческое задание"})

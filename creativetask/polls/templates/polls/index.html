@@ -1,5 +1,9 @@
 {% extends "polls/base.html" %}
 
+{% block title %}
+	{{title}}
+{% endblock title %}
+
 {% block content %}
     <table class="table table-hover">
         <tr>
@@ -14,10 +18,18 @@
 				<table cellspacing="0" cellpadding="0" class="borderless">
 					<tr>
 						<td>
-							<p>Сентябрь 2020 – май 2022</p>
+							<p>Сентябрь 2020 – Май 2022</p>
 						</td>
 						<td>
 							<p>Проходил двухгодичные курсы по основам промышленного программирования на языке Python для школьников 8–10-х классов "Яндекс Лицей".</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Август 2022 - Сентябрь 2022</p>
+						</td>
+						<td>
+							<p>Создал телеграмм бота для ознакомления несовершеннолетних с их правами "JULA бот".</p>
 						</td>
 					</tr>
 				</table>
